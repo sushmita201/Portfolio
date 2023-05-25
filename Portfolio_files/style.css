@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    background: red;
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 35px;
+    color: #000;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+/* Home section */
+.home{
+    display: flex;
+    /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtbVgc1mbdh2kZxaknkXbUMONPtSBZniDYvQ&usqp=CAU") no repeat center; */
+    height: 100vh;
+    background-color: rgb(234, 241, 47);
+    color: white;
+}
